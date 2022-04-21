@@ -1,0 +1,19 @@
+.card-title {
+    font-family: 'Parisienne', cursive;
+    font-size: 70px;
+    color: #687A86;
+    font-weight: 100;
+}
+
+.date-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #687A86;
+    font-weight: 100;
+}
+
+.line{
+    width: 72%;
+    color: #4F4F4F;
+    
+}

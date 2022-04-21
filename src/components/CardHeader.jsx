@@ -1,14 +1,10 @@
-import IMG_9193 from '../images/IMG_9193.JPG'
+import header_image from '../images/header_image.jpg'
 
 function CardHeader(){
     return (
         <>
-        <div  style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}>
-            <img src={IMG_9193} />
+        <div>
+            <img src={header_image} style={{zIndex: "2"}} />
         </div> 
         </>
     )

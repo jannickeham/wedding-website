@@ -1,10 +1,35 @@
-
+import '../css/style.css';
 
 
 function CardTitle(){
     return (
         <>
-        <div>Vi gifter oss</div>
+        <h1 
+        className='card-title' 
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          transform: "translate(0, -35%)"
+        }}>
+            Vi gifter oss
+        </h1>
+        <h2 
+        className='date-title' 
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          transform: "translate(0, -310%)"
+        }}>
+            12.08.2023
+        </h2>
+        <div 
+         style={{position: "relative", 
+         top: "-5em"}}>
+            <hr className='line'></hr>
+        </div>
+        
         </>
     )
 }
