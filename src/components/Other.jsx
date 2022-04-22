@@ -1,6 +1,11 @@
 function Other(){
     return(
-        <><h1>Info om annet</h1></>
+        <>
+        <div className="info-div">
+                <h2 className="info-title">Info om annet</h2>
+                <p className="info-content">Her kommer det andre relevante opplysninger i forbindelse med bryllupet.</p>
+            </div>
+        </>
     )
 }
 

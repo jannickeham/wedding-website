@@ -1,6 +1,11 @@
 function Hotel(){
     return(
-        <><h1>Info om overnatting</h1></>
+        <>
+        <div className="info-div">
+            <h2 className="info-title">Info om overnatting</h2>
+            <p className="info-content">Her kommer det informasjon om overnattingsmuligheter</p>
+        </div>
+        </>
     )
 }
 
