@@ -1,3 +1,7 @@
+# Our wedding website
+
+An informative website about our wedding for our guests. Created with React. 
+
 Not yet implemented with resposive design for mobile screens
 
 https://hamarsneshansen.no/
