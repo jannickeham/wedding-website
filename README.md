@@ -1,3 +1,9 @@
+Not yet implemented with resposive design for mobile screens
+
+https://hamarsneshansen.no/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
