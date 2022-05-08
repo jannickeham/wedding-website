@@ -1,3 +1,13 @@
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/website-up-down-green-red/http/monip.org.svg website:https://hamarsneshansen.no/
+
+# Our wedding website
+
+An informative website about our wedding for our guests. Created with React. 
+
+Not yet implemented with resposive design for mobile screens
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
