@@ -1,0 +1,79 @@
+@media (max-width: 790px){
+    
+
+    .list-item{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .church-li{
+        position: relative;
+        right: 10px;
+        top: 5px;
+        
+    }
+
+    .location-li{
+        position: relative;
+        right: 5px;
+        top: 5px;
+    }
+
+    .hotel-li{
+        position: relative;
+        right: 100px;
+        top: 5px;
+    }
+
+    .other-li{
+        position: relative;
+        right: 100px;
+        top: 5px;
+    }
+
+    .card-main-div{
+        width: 350px;
+    }
+    
+    .header-image{
+        width: 350px;
+        height: auto;
+    }
+
+    
+
+    .list-item-icon{
+        position: relative;
+        top: 55px;
+        right: 75px;
+    }
+    
+    .navbar-list{
+        width: max-content;
+        
+    }
+
+    .card-title{
+        font-size: 50px;
+    }
+
+    .date-title{
+        font-size: 15px;
+    }
+
+    .line-div{
+        top: -4em;
+        left: 13%;
+
+    }
+
+    .info-title{
+        font-size: 25px;
+    }
+
+    .info-content{
+        font-size: 15px
+    }
+
+    
+}

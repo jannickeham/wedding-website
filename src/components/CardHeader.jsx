@@ -4,7 +4,7 @@ function CardHeader(){
     return (
         <>
         <div>
-            <img src={header_image} style={{zIndex: "2"}} />
+            <img className={"header-image"} src={header_image} style={{zIndex: "2"}} />
         </div> 
         </>
     )

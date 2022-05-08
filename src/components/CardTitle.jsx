@@ -24,9 +24,8 @@ function CardTitle(){
         }}>
             12.08.2023
         </h2>
-        <div 
-         style={{position: "relative", 
-         top: "-5em"}}>
+        <div className='line-div'
+         >
             <hr className='line'></hr>
         </div>
         

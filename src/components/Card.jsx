@@ -7,9 +7,8 @@ import Hotel from "./Hotel"
 import Other from "./Other";
 import Church from "./Church"
 import { useState } from "react";
-
-
-
+import '../css/responsive-display.css';
+import '../css/style.css';
 
 
 
@@ -24,25 +23,16 @@ function Card(){
 
     return(
         <> 
-        <div style={{
-            backgroundColor: "#FCFCFC",
-            width: "auto",
-            position: "absolute",
-            left: "50%",
-            top: "0",
-            transform: "translate(-50%, 0)",
-            height: "auto",
-            boxShadow:"2px 3px 6px -1px rgba(135,135,135,0.69)"
-            }} >
+        <div className="card-main-div" >
             <CardHeader/>
             <CardTitle/>
-            <div className='navbar-div'>
-                <ul className="navbar-list">
-                    <li className="list-item" onClick={churchClick}>Kirken</li>
-                    <li className="list-item" onClick={locationClick}>Lokalet</li>
+            <div className='navbar-div navbar'>
+                <ul className="navbar-list navbar">
+                    <li className="list-item navbar church-li" onClick={churchClick}>Kirken</li>
+                    <li className="list-item navbar location-li" onClick={locationClick}>Lokalet</li>
                     <li className="list-item-icon"><img src={wedding_ring} className="wedding-ring-icon"/></li>
-                    <li className="list-item" onClick={hotelClick}>Overnatting</li>
-                    <li className="list-item" onClick={otherClick}>Annet</li>
+                    <li className="list-item navbar hotel-li" onClick={hotelClick}>Overnatting</li>
+                    <li className="list-item navbar other-li" onClick={otherClick}>Annet</li>
                 </ul>
             </div>
 

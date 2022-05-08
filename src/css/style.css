@@ -12,8 +12,24 @@
     font-weight: 100;
 }
 
-.line{
+.line-div{
     width: 72%;
     color: #4F4F4F;
+    position: relative;
+    top: -5em;
+    left: 7em;
     
+}
+
+
+
+.card-main-div{
+    background-color: #FCFCFC;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    height: auto;
+    box-shadow: 2px 3px 6px -1px rgba(135,135,135,0.69);
 }
