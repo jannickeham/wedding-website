@@ -75,5 +75,7 @@
         font-size: 15px
     }
 
-    
+    .image{
+        left: 1em;
+    }
 }

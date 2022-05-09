@@ -12,6 +12,7 @@ h2 {
     position: relative;
     justify-content: center;
     text-align: center;
+    padding: 2em;
 }
 
 .info-div{
@@ -22,3 +23,38 @@ h2 {
     text-align: center;
 }
 
+.image-div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 2em;
+    padding-left: 0.5em;
+    border-radius: 5%;
+    
+}
+
+.link{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.info-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.info-answered{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
