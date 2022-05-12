@@ -1,28 +1,3 @@
-/*@media (min-width: 1550px) {
-  .line {
-    width: 100%;
-  }
-
-  .line-div {
-    width: 90em;
-  }
-
-  .list-item-icon {
-    margin-top: 1em;
-  }
-
-  .navbar-div {
-    margin: 0 2em 0 0;
-    position: relative;
-    left: 30em;
-    padding: 0;
-  }
-
-  .navbar-list {
-    width: max-content;
-  }
-}*/
-
 @media (max-width: 790px) {
   .list-item {
     font-size: 15px;
