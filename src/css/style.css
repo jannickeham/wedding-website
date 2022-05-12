@@ -1,35 +1,64 @@
+.card-main-div {
+  background-color: #fcfcfc;
+  box-shadow: 2px 3px 6px -1px rgba(135, 135, 135, 0.69);
+  width: 50rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 5em;
+}
+
+.header-div {
+  width: 100%;
+  height: auto;
+}
+
+.header-image {
+  width: 100%;
+  z-index: 2;
+}
+
+.header-text-div {
+  display: flex;
+  flex-direction: column;
+}
 .card-title {
-    font-family: 'Parisienne', cursive;
-    font-size: 70px;
-    color: #687A86;
-    font-weight: 100;
+  font-family: "Parisienne", cursive;
+  font-size: 70px;
+  color: #687a86;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 .date-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: #687A86;
-    font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #687a86;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0.2em;
 }
 
-.line-div{
-    width: 72%;
-    color: #4F4F4F;
-    position: relative;
-    top: -5em;
-    left: 7em;
-    
+.line-div {
+  width: 80%;
+  height: auto;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-
-
-.card-main-div{
-    background-color: #FCFCFC;
-    width: auto;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    height: auto;
-    box-shadow: 2px 3px 6px -1px rgba(135,135,135,0.69);
+.line {
+  border-top: 0.5px solid #4f4f4f;
+  margin: 0.5rem 0.5rem 0 0.5rem;
 }

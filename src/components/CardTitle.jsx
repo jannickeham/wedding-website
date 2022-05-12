@@ -1,36 +1,15 @@
-import '../css/style.css';
+import "../css/style.css";
 
-
-function CardTitle(){
-    return (
-        <>
-        <h1 
-        className='card-title' 
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          transform: "translate(0, -35%)"
-        }}>
-            Vi gifter oss
-        </h1>
-        <h2 
-        className='date-title' 
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          transform: "translate(0, -310%)"
-        }}>
-            12.08.2023
-        </h2>
-        <div className='line-div'
-         >
-            <hr className='line'></hr>
-        </div>
-        
-        </>
-    )
+function CardTitle() {
+  return (
+    <div className="header-text-div">
+      <h1 className="card-title">Vi gifter oss</h1>
+      <h2 className="date-title">12.08.2023</h2>
+      <div className="line-div">
+        <hr className="line"></hr>
+      </div>
+    </div>
+  );
 }
 
 export default CardTitle;

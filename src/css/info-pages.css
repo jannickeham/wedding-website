@@ -1,60 +1,72 @@
+.info-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0.4em;
 }
 
-.info-content{
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    padding: 2em;
+.info-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  padding: 0.3em 2em 0.3em 2em;
+  text-align: center;
 }
 
-.info-div{
-    position: relative;
-    top: -4em;
-    left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
+.info-adress {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  padding: 0.3em 2em 0.3em 2em;
+  text-align: center;
 }
 
-.image-div{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.image-div {
+  width: 30em;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
-.image{
-    width: 80%;
-    height: auto;
-    position: relative;
-    left: 2em;
-    padding-left: 0.5em;
-    border-radius: 5%;
-    
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
 }
 
-.link{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: #4F4F4F;
+.link-div {
+  display: flex;
+  justify-content: center;
 }
 
-.info-header{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
+.link {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #4f4f4f;
+  font-weight: bold;
 }
 
-.info-answered{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+.info-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.info-answered {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
 }
